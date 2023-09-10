@@ -14,6 +14,7 @@
     "@types/react-dom": "18.2.7",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "material-symbols": "^0.12.0",
     "next": "13.4.19",
     "next-intl": "3.0.0-beta.16",
     "react": "18.2.0",

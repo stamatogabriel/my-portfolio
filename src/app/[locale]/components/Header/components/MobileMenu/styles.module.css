@@ -1,0 +1,57 @@
+.mobileClose {
+  width: 0;
+}
+
+.mobileNone {
+  display: none;
+}
+
+.mobileWrapper {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  background: var(--greyscale-3);
+
+  padding: 1rem;
+
+  z-index: 20;
+  overflow-y: auto;
+  transition: 0.5s;
+}
+
+.mobileLink {
+  padding: 1rem;
+  color: var(--greyscale-7);
+  font-weight: 700;
+  font-size: 1rem;
+  transition: color 1s;
+  background: transparent;
+  border: none;
+}
+
+.mobileLink:hover {
+  color: var(--greyscale-3);
+}
+
+.localeLink {
+  padding: 0.5rem 1rem;
+  background: var(--brand-3);
+  color: #fff;
+  font-weight: 700;
+  transition: color 1s;
+
+  border-radius: 0.5rem;
+  margin: auto auto 3rem;
+}
+
+.mobileMenuButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0 0 2rem auto;
+}

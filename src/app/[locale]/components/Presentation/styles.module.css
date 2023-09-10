@@ -1,0 +1,89 @@
+.presentationMain {
+  width: 100vw;
+  height: calc(100vh - 200px);
+  max-width: 1200px;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.presentationTitle {
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+  @media only screen and (min-width: 600px) {
+    font-size: 3rem;
+    line-height: 4.5rem;
+  }
+}
+
+.presentationContent {
+  text-align: center;
+  line-height: 1.4rem;
+  max-width: 600px;
+  
+  @media only screen and (min-width: 600px) {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+}
+
+.presentationLink {
+  margin-top: 2rem;
+  background: var(--brand-1);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.8rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.mouseScroll {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mouse {
+  width: 25px;
+  height: 40px;
+  border: 2px solid #333;
+  border-radius: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes wheel {
+  to {
+      opacity: 0;
+      top: 27px
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+      opacity: 0;
+      top: 27px
+  }
+}
+
+.mouse::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  border-radius: 50%;
+  opacity: 1;
+  animation: wheel 1.3s infinite;
+  -webkit-animation: wheel 1.3s infinite;
+}

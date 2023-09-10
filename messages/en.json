@@ -1,0 +1,13 @@
+{
+  "header": {
+    "about": "About",
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "presentation": {
+    "title": "Hi, I'm Gabriel Stamato",
+    "content": "Tech Lead and Fullstack Developer, specialized in JavaScript, with expertise in PHP, Golang, and Java. I possess deep knowledge in microservices architecture and master the AWS ecosystem to drive your project forward.",
+    "project": "Projects"
+  }
+}

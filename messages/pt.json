@@ -1,0 +1,13 @@
+{
+  "header": {
+    "about": "Sobre",
+    "home": "Home",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "presentation": {
+    "title": "Olá, sou Gabriel Stamato",
+    "content": "Tech Lead e Desenvolvedor Fullstack, especializado em JavaScript, com expertise em PHP, Golang e Java. Possuo profundo conhecimento em arquitetura de microsserviços e domino o ecossistema AWS para impulsionar seu projeto.",
+    "project": "Projetos"
+  }
+}

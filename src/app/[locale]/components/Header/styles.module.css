@@ -1,0 +1,57 @@
+.header {
+  width: 100vw;
+  height: 5rem;
+  background: #fff;
+  position: fixed;
+  top: 0;
+
+  box-shadow: 0 5px 15px 5px var(--greyscale-3);
+  padding: 0 1rem;
+}
+
+.headerMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0.5rem auto;
+}
+
+.avatarWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.authorName {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  color: var(--greyscale-7);
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 1px solid var(--brand-3) 
+}
+
+.headerLink {
+  padding: 1rem;
+  color: var(--greyscale-7);
+  font-weight: 700;
+  transition: color 1s;
+}
+
+.headerLink:hover {
+  color: var(--greyscale-3);
+}
+
+.localeLink {
+  padding: 0.5rem 1rem;
+  background: var(--brand-3);
+  color: #fff;
+  font-weight: 700;
+  transition: color 1s;
+
+  border-radius: 0.5rem;
+}

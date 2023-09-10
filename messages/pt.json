@@ -9,5 +9,13 @@
     "title": "Olá, sou Gabriel Stamato",
     "content": "Tech Lead e Desenvolvedor Fullstack, especializado em JavaScript, com expertise em PHP, Golang e Java. Possuo profundo conhecimento em arquitetura de microsserviços e domino o ecossistema AWS para impulsionar seu projeto.",
     "project": "Projetos"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "knowMe": "Venha me conhecer!",
+    "skills": "Minhas habilidades",
+    "subtitle": "Aqui você encontrará mais informações sobre mim, o que faço e minhas habilidades atuais principalmente em termos de programação e tecnologia.",
+    "content": "Com ampla experiência em front-end (JavaScript, TypeScript, Bootstrap, HTML, e CSS) e back-end (PHP e Node.js), bem como em aplicativos mobile (React Native) e bancos de dados, participei ativamente de eventos de TI. <br /><br />Atuei como Tech Lead, desenvolvendo estratégias de produto com foco em qualidade, escalabilidade e eficiência de custos. Facilitei a comunicação entre equipes de negócios e tecnologia, padronizei tecnologias e otimizei o uso de serviços em nuvem. Também estabeleci parcerias com fornecedores. <br /><br />Possuo expertise em DevOps, AWS e criação de pipelines para entrega contínua. Se você busca um profissional técnico com habilidades de liderança e comunicação, estou à disposição para impulsionar seu projeto.",
+    "contact": "Contato"  
   }
 }

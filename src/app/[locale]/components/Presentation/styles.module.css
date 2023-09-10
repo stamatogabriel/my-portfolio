@@ -1,8 +1,10 @@
 .presentationMain {
   width: 100vw;
-  height: calc(100vh - 200px);
-  max-width: 1200px;
+  height: calc(100vh - 65px);
+  /* max-width: 1200px; */
   padding: 1rem;
+  background: var(--greyscale-4);
+  margin-top: -30px;
 
   display: flex;
   flex-direction: column;

@@ -33,7 +33,7 @@
 
 .avatar {
   border-radius: 50%;
-  border: 1px solid var(--brand-3) 
+  border: 1px solid var(--brand-1) 
 }
 
 .headerWrapper {
@@ -55,7 +55,7 @@
 
 .localeLink {
   padding: 0.5rem 1rem;
-  background: var(--brand-3);
+  background: var(--brand-1);
   color: #fff;
   font-weight: 700;
   transition: color 1s;

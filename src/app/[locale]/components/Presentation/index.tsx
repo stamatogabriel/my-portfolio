@@ -6,10 +6,10 @@ export default function Presentation() {
   const t = useTranslations("presentation");
 
   return (
-    <section className={styles.presentationMain}>
+    <section className={styles.presentationMain} id="home">
       <h2 className={styles.presentationTitle}>{t("title")}</h2>
       <p className={styles.presentationContent}>{t("content")}</p>
-      <Link href="#" className={styles.presentationLink}>
+      <Link href="#" className={styles.presentationLink} aria-label="Project">
         {t("project")}
       </Link>
       <div className={styles.mouseScroll}>

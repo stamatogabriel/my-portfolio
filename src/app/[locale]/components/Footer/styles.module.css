@@ -1,0 +1,64 @@
+.footerMain {
+  background: var(--brand-1);
+  width: 100vw;
+  padding: 2rem 0;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutInfo {
+  max-width: 400px;
+}
+
+.infoTitle {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: var(--greyscale-6);
+}
+
+.infoContent {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: var(--greyscale-6);
+  margin-top: 1.5rem;
+}
+
+.socialMediaWrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 400px;
+}
+
+.socialMediaTitle {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: var(--greyscale-6);
+  margin-right: 2rem;
+}
+
+.socialIcon {
+  margin: 0.5rem 0.5rem auto;
+}
+
+.divider {
+  max-width: 600px;
+  margin: 3rem auto 1.5rem;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.copyrightText {
+  font-size: 0.8rem;
+  color: var(--greyscale-6);
+}

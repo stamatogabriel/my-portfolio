@@ -3,6 +3,8 @@ import styles from "./styles.module.css";
 
 import LocaleLink from "next-intl/link";
 import { useLocale, useTranslations } from "next-intl";
+import { MdClose } from "react-icons/md";
+import Link from "next/link";
 
 interface MobileMenuProps {
   open: boolean
@@ -15,28 +17,28 @@ export default function MobileMenu({ open, setOpen }: MobileMenuProps) {
 
   return (
     <div className={open ? styles.mobileWrapper : styles.mobileClose}>
-      <button className={open ? styles.mobileMenuButton : styles.mobileNone} onClick={() => setOpen(false)}>
-        <span className="material-symbols-outlined">close</span>
+      <button className={open ? styles.mobileMenuButton : styles.mobileNone} onClick={() => setOpen(false)} aria-label="Close">
+        <MdClose size={30} />
       </button>
-      <button className={open ? styles.mobileLink : styles.mobileNone} onClick={() => ({})}>
+      <Link className={open ? styles.mobileLink : styles.mobileNone} href="#home" aria-label="Home">
         {t("home")}
-      </button>
-      <button className={open ? styles.mobileLink : styles.mobileNone} onClick={() => ({})}>
+      </Link>
+      <Link className={open ? styles.mobileLink : styles.mobileNone} href="#about" aria-label="About">
         {t("about")}
-      </button>
-      <button className={open ? styles.mobileLink : styles.mobileNone} onClick={() => ({})}>
+      </Link>
+      <Link className={open ? styles.mobileLink : styles.mobileNone} href="#" aria-label="Projects">
         {t("projects")}
-      </button>
-      <button className={open ? styles.mobileLink : styles.mobileNone} onClick={() => ({})}>
+      </Link>
+      <Link className={open ? styles.mobileLink : styles.mobileNone} href="#" aria-label="Contact">
         {t("contact")}
-      </button>
+      </Link>
       {locale === "pt" && (
-        <LocaleLink href="/" locale="en" className={open ? styles.localeLink : styles.mobileNone}>
+        <LocaleLink href="/" locale="en" className={open ? styles.localeLink : styles.mobileNone} aria-label="English">
           English
         </LocaleLink>
       )}
       {locale === "en" && (
-        <LocaleLink href="/" locale="pt" className={open ? styles.localeLink : styles.mobileNone}>
+        <LocaleLink href="/" locale="pt" className={open ? styles.localeLink : styles.mobileNone} aria-label="Portuguese">
           Português
         </LocaleLink>
       )}

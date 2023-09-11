@@ -17,5 +17,9 @@
     "subtitle": "Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology.",
     "content": "With extensive experience in front-end (JavaScript, TypeScript, Bootstrap, HTML, and CSS) and back-end (PHP and Node.js), as well as in mobile applications (React Native) and databases, I have actively participated in IT events. <br /><br />I acted as a Tech Lead, developing product strategies with a focus on quality, scalability, and cost-efficiency. I facilitated communication between business and technology teams, standardized technologies, and optimized cloud service usage. I also established partnerships with suppliers. <br /><br />I have expertise in DevOps, AWS, and the creation of pipelines for continuous delivery. If you are looking for a technical professional with leadership and communication skills, I am available to drive your project forward.",
     "contact": "Contact"  
+  },
+  "footer": {
+    "content": "Tech Lead and Fullstack Developer, specialized in JavaScript, with expertise in PHP, Golang, and Java. I possess deep knowledge in microservices architecture and master the AWS ecosystem to drive your project forward.",
+    "social": "Social"
   }
 }

@@ -8,6 +8,8 @@ import styles from "./styles.module.css";
 import MobileMenu from "./components/MobileMenu";
 import { useState } from "react";
 
+import { MdMenu } from 'react-icons/md'
+
 export default function Header() {
   const [openMenu, setOpenMenu] = useState<boolean>(false)
 
@@ -29,23 +31,23 @@ export default function Header() {
           <h1 className={styles.authorName}>Gabriel Stamato</h1>
         </div>
         <div className={styles.headerWrapper}>
-          <Link className={styles.headerLink} href="#">{t("home")}</Link>
-          <Link className={styles.headerLink} href="#">{t("about")}</Link>
-          <Link className={styles.headerLink} href="#">{t("projects")}</Link>
-          <Link className={styles.headerLink} href="#">{t("contact")}</Link>
+          <Link className={styles.headerLink} href="#home" aria-label="Home">{t("home")}</Link>
+          <Link className={styles.headerLink} href="#about" aria-label="About">{t("about")}</Link>
+          <Link className={styles.headerLink} href="#" aria-label="Projects">{t("projects")}</Link>
+          <Link className={styles.headerLink} href="#" aria-label="Contact">{t("contact")}</Link>
           {locale === "pt" && (
-            <LocaleLink href="/" locale="en" className={styles.localeLink}>
+            <LocaleLink href="/" locale="en" className={styles.localeLink} aria-label="English">
               English
             </LocaleLink>
           )}
           {locale === "en" && (
-            <LocaleLink href="/" locale="pt" className={styles.localeLink}>
+            <LocaleLink href="/" locale="pt" className={styles.localeLink} aria-label="Portuguese">
               Português
             </LocaleLink>
           )}
         </div>
-        <button className={styles.mobileMenuButton} onClick={() => setOpenMenu(true)}>
-          <span className="material-symbols-outlined">menu</span>
+        <button className={styles.mobileMenuButton} onClick={() => setOpenMenu(true)} aria-label="Menu">
+          <MdMenu size={30} />
         </button>
       </section>
       <MobileMenu open={openMenu} setOpen={setOpenMenu} />

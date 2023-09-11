@@ -1,10 +1,9 @@
 .presentationMain {
   width: 100vw;
-  height: calc(100vh - 65px);
+  height: calc(100vh + 60px);
   /* max-width: 1200px; */
   padding: 1rem;
   background: var(--greyscale-4);
-  margin-top: -30px;
 
   display: flex;
   flex-direction: column;
@@ -28,11 +27,11 @@
   text-align: center;
   line-height: 1.4rem;
   max-width: 600px;
-  
+
   @media only screen and (min-width: 600px) {
     font-size: 1.2rem;
     line-height: 1.7rem;
-}
+  }
 }
 
 .presentationLink {
@@ -67,15 +66,15 @@
 
 @keyframes wheel {
   to {
-      opacity: 0;
-      top: 27px
+    opacity: 0;
+    top: 27px
   }
 }
 
 @-webkit-keyframes wheel {
   to {
-      opacity: 0;
-      top: 27px
+    opacity: 0;
+    top: 27px
   }
 }
 

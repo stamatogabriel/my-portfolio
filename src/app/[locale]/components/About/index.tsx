@@ -27,14 +27,14 @@ export default function About() {
     "VueJs",
   ];
   return (
-    <section className={styles.aboutMain}>
+    <section className={styles.aboutMain} id="about">
       <h2 className={styles.title}>{t("title")}</h2>
       <p className={styles.subtitle}>{t("subtitle")}</p>
       <section className={styles.aboutGrid}>
         <div className={styles.contentWrapper}>
           <h3 className={styles.contentTitle}>{t('knowMe')}</h3>
           <p dangerouslySetInnerHTML={{ __html: t("content") }} className={styles.content} />
-          <Link href="#" className={styles.contact}>{t('contact')}</Link>
+          <Link href="#" className={styles.contact} aria-label="Contact">{t('contact')}</Link>
         </div>
         <div className={styles.contentWrapper}>
           <h3 className={styles.contentTitle}>{t('skills')}</h3>

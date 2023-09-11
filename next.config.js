@@ -1,11 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    i18n: {
-      locales: ["pt", "en"],
-      defaultLocale: "pt",
-      localeDetection: false
-    },
     domains: ["media.licdn.com"],
   },
 };

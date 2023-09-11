@@ -9,7 +9,7 @@ export default function Presentation() {
     <section className={styles.presentationMain} id="home">
       <h2 className={styles.presentationTitle}>{t("title")}</h2>
       <p className={styles.presentationContent}>{t("content")}</p>
-      <Link href="#" className={styles.presentationLink} aria-label="Project">
+      <Link href="#" className={styles.presentationLink} aria-label="My Projects">
         {t("project")}
       </Link>
       <div className={styles.mouseScroll}>

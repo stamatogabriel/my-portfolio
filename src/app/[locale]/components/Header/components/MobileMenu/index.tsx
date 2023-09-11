@@ -38,7 +38,7 @@ export default function MobileMenu({ open, setOpen }: MobileMenuProps) {
         </LocaleLink>
       )}
       {locale === "en" && (
-        <LocaleLink href="/" locale="pt" className={open ? styles.localeLink : styles.mobileNone} aria-label="Portuguese">
+        <LocaleLink href="/" locale="pt" className={open ? styles.localeLink : styles.mobileNone} aria-label="Português">
           Português
         </LocaleLink>
       )}

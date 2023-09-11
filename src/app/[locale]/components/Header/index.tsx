@@ -41,7 +41,7 @@ export default function Header() {
             </LocaleLink>
           )}
           {locale === "en" && (
-            <LocaleLink href="/" locale="pt" className={styles.localeLink} aria-label="Portuguese">
+            <LocaleLink href="/" locale="pt" className={styles.localeLink} aria-label="Português">
               Português
             </LocaleLink>
           )}

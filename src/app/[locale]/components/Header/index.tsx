@@ -33,7 +33,7 @@ export default function Header() {
         <div className={styles.headerWrapper}>
           <Link className={styles.headerLink} href="#home" aria-label="Home">{t("home")}</Link>
           <Link className={styles.headerLink} href="#about" aria-label="About">{t("about")}</Link>
-          <Link className={styles.headerLink} href="#" aria-label="Projects">{t("projects")}</Link>
+          <Link className={styles.headerLink} href="#" aria-label="My Projects">{t("projects")}</Link>
           <Link className={styles.headerLink} href="#" aria-label="Contact">{t("contact")}</Link>
           {locale === "pt" && (
             <LocaleLink href="/" locale="en" className={styles.localeLink} aria-label="English">

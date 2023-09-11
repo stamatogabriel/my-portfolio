@@ -26,7 +26,7 @@ export default function MobileMenu({ open, setOpen }: MobileMenuProps) {
       <Link className={open ? styles.mobileLink : styles.mobileNone} href="#about" aria-label="About">
         {t("about")}
       </Link>
-      <Link className={open ? styles.mobileLink : styles.mobileNone} href="#" aria-label="Projects">
+      <Link className={open ? styles.mobileLink : styles.mobileNone} href="#" aria-label="My Projects">
         {t("projects")}
       </Link>
       <Link className={open ? styles.mobileLink : styles.mobileNone} href="#" aria-label="Contact">

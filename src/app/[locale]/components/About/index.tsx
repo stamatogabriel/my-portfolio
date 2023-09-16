@@ -34,7 +34,7 @@ export default function About() {
         <div className={styles.contentWrapper}>
           <h3 className={styles.contentTitle}>{t('knowMe')}</h3>
           <p dangerouslySetInnerHTML={{ __html: t("content") }} className={styles.content} />
-          <Link href="#" className={styles.contact} aria-label="Contact">{t('contact')}</Link>
+          <Link href="#contact" className={styles.contact} aria-label={t('contact')}>{t('contact')}</Link>
         </div>
         <div className={styles.contentWrapper}>
           <h3 className={styles.contentTitle}>{t('skills')}</h3>

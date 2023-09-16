@@ -1,7 +1,7 @@
 .aboutMain {
   width: 100vw;
   min-height: calc(100vh - 70px);
-  padding: 2.5rem 1rem 1rem;
+  padding: 3.5rem 1rem 1rem;
   background: var(--greyscale-6);
 
   display: flex;
@@ -18,7 +18,7 @@
   max-width: 600px;
   text-align: center;
   margin-bottom: 3rem;
-  color: var(--greyscale-7);
+  color: var(--greyscale-8);
 }
 
 .contentTitle {
@@ -65,9 +65,9 @@
 .bullet {
   padding: 0.5rem 1.3rem;
   margin: 0.5rem;
-  border-radius: 0.5rem;
+  border-radius: 500px;
 
-  background: var(--brand-1);
+  background: var(--greyscale-7);
   color: #fff;
   font-weight: 700;
 }

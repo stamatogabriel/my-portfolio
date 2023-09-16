@@ -1,0 +1,91 @@
+.contactContainer {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (min-width: 700px) {
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+  }
+}
+
+.form {
+  width: 100%;
+  max-width: 550px;
+  margin: 1rem auto;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.inputLabel,
+.inputError {
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+}
+
+.input {
+  height: 40px;
+  padding: 0 0.5rem;
+  border: 1px solid var(--greyscale-3)
+}
+
+.textarea {
+  padding: 0 0.5rem;
+  border: 1px solid var(--greyscale-3);
+  height: 150px;
+}
+
+.inputError {
+  color: var(--error);
+}
+
+.button {
+  background: var(--brand-1);
+  color: #fff;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  width: 100%;
+  max-width: 500px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 1.75rem;
+  margin-top: 2rem;
+}
+
+.socialMediaWrapper {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 400px;
+}
+
+.socialIcon {
+  color: var(--greyscale-8);
+  transition: color 1s;
+  margin-right: 0.875rem;
+}
+
+.socialIcon:hover {
+  color: var(--greyscale-7);
+}

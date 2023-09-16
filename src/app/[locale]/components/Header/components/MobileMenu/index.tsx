@@ -29,7 +29,7 @@ export default function MobileMenu({ open, setOpen }: MobileMenuProps) {
       <Link className={open ? styles.mobileLink : styles.mobileNone} href="#" aria-label="My Projects">
         {t("projects")}
       </Link>
-      <Link className={open ? styles.mobileLink : styles.mobileNone} href="#" aria-label="Contact">
+      <Link className={open ? styles.mobileLink : styles.mobileNone} href="#contact" aria-label="Contact">
         {t("contact")}
       </Link>
       {locale === "pt" && (

@@ -31,10 +31,10 @@ export default function Header() {
           <h1 className={styles.authorName}>Gabriel Stamato</h1>
         </div>
         <div className={styles.headerWrapper}>
-          <Link className={styles.headerLink} href="#home" aria-label="Home">{t("home")}</Link>
-          <Link className={styles.headerLink} href="#about" aria-label="About">{t("about")}</Link>
-          <Link className={styles.headerLink} href="#" aria-label="My Projects">{t("projects")}</Link>
-          <Link className={styles.headerLink} href="#" aria-label="Contact">{t("contact")}</Link>
+          <Link className={styles.headerLink} href="#home" aria-label={t("home")}>{t("home")}</Link>
+          <Link className={styles.headerLink} href="#about" aria-label={t("about")}>{t("about")}</Link>
+          <Link className={styles.headerLink} href="#" aria-label={t("projects")}>{t("projects")}</Link>
+          <Link className={styles.headerLink} href="#contact" aria-label={t("contact")}>{t("contact")}</Link>
           {locale === "pt" && (
             <LocaleLink href="/" locale="en" className={styles.localeLink} aria-label="English">
               English
